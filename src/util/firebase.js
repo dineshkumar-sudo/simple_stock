@@ -1,16 +1,21 @@
 import firebase from 'firebase';
 
-const firebaseConfig = {
-  apiKey: 'AIzaSyD913zoD5TQwGsd1kHWPdvzo6-7DMFBj8U',
-  authDomain: 'tododaily-5dc59.firebaseapp.com',
-  databaseURL: 'https://tododaily-5dc59.firebaseio.com',
-  projectId: 'tododaily-5dc59',
-  storageBucket: 'tododaily-5dc59.appspot.com',
-  messagingSenderId: '272694852596',
-  appId: '1:272694852596:web:5ddb762dd9e30e4cb0d7a1',
-  measurementId: 'G-BSXVN1XVL7',
+
+/* database */
+
+var firebaseConfig = {
+  apiKey: "AIzaSyBDyP-V1adnM5NPnoXimvskEvbaA60_bWU",
+  authDomain: "tododaily-d7986.firebaseapp.com",
+  databaseURL : 'https://tododaily-d7986-default-rtdb.firebaseio.com',
+  projectId: "tododaily-d7986",
+  storageBucket: "tododaily-d7986.appspot.com",
+  messagingSenderId: "1095708192032",
+  appId: "1:1095708192032:web:b46d2f8792499bd59bfb45",
+  measurementId: "G-288V19EQGH"
 };
 // Initialize Firebase
+
 firebase.initializeApp(firebaseConfig);
 
-export default firebase;
+
+export default firebase; 

@@ -1,0 +1,42 @@
+.nav-link
+{
+    text-decoration: none;
+    color : white;
+    
+}
+
+.itemscreate{
+    margin-left: 120px;
+}
+.itemssee{
+    margin-left : 100px;
+}
+
+.stockdetails{
+    margin-top : 150px;
+    margin-left : 500px;
+}
+.crud{
+    margin-left : -60px;
+}
+
+.itemsquantity{
+    margin-left : 90px;
+}
+
+.itemsname{
+    margin-left: 90px;
+}
+
+
+
+
+.title {
+    margin-right : 10px;
+}
+
+.action
+{
+    margin-left : 550px;
+}
+

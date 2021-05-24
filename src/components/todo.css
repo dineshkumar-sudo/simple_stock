@@ -1,0 +1,33 @@
+.headings{
+    margin-left: 630px;
+}
+
+.tododetails{
+    margin-left : 0px;
+}
+
+.title {
+    display : inline;
+    margin-left : 10px;
+}
+
+.tododetails{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+button{
+    padding : 3px;
+    margin-top: 10px;
+    margin-left : 50px;
+    background-color: blue;
+    color : white;
+}
+
+.nqa{
+    margin-left: 500px;
+}
+
+.nameofitem{
+    margin : 10px;  
+}

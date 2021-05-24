@@ -5,7 +5,8 @@ import Todo from './Todo';
 export default function TodoList() {
   const [todoList, setTodoList] = useState();
 
-  useEffect(() => {
+  useEffect(() => 
+  {
     const todoRef = firebase.database().ref('Todo');
     todoRef.on('value', (snapshot) => {
       const todos = snapshot.val();

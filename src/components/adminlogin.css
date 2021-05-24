@@ -1,0 +1,43 @@
+.container{
+    margin-top : 200px;
+}
+
+.title{
+    margin-left : 480px;
+    font-size : 20px;
+    width : 100%;
+}
+
+.heading{
+    color : brown;
+    margin-left: 500px;
+}
+
+.btn{
+    padding : 5px;
+    color : black;
+    border-radius: 5px;
+    background-color: blueviolet;
+    display: inline;
+    margin-top: 25px;
+}
+
+.btn:hover{
+    background-color: blue;
+    color : white;
+}
+
+.username{
+    margin-left: 570px;
+    padding : 5px;
+}
+
+.password{
+    padding : 5px;
+}
+
+
+
+.losp{
+    margin-left : 620px;
+}

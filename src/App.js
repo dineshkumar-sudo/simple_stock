@@ -1,16 +1,39 @@
 import React from 'react';
-import './App.css';
+/* import './App.css'; */
 import Form from './components/Form';
-import TodoList from './components/TodoList';
-import UploadImage from './components/UploadImage';
+import Todo from './components/Todo';
+
+import Adminlogin from './components/adminlogin'
+import { BrowserRouter as Router, Switch, Route,Redirect } from "react-router-dom"; 
+import { Fragment } from 'react';
+
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Todo</h1>
-      <Form />
-      <TodoList />
-      <UploadImage />
+      
+      <Fragment>
+        <Router>
+          <Route exact path="/" component={Adminlogin} />
+            <Switch>
+            <Route exact path="/Form" component={Form} />
+            <Route exact path="/Todo" component={Todo} />
+            </Switch>
+        </Router>
+      </Fragment>
     </div>
   );
 }
+
+
+
+
+  {/* <Router>
+      <Route exact path="/" component={Alogin} /> */}
+      {/* <Switch>
+      <Route exact path="/Form" component={Form} />
+      <Route exact path="/Todo" component={Todo} />
+      </Switch> */}
+      {/* </Router> */}
+      {/* <Alogin /> */}
+      {/* <UploadImage />*/}
